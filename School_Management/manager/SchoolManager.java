@@ -1,7 +1,8 @@
 package School_Management.manager;
 
-import School_Management.modules.*;
 import java.util.Random;
+
+import School_Management.modules.*;
 
 public class SchoolManager {
     private StudentRegistry studentRegistry;

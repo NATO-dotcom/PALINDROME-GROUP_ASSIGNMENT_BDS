@@ -1,7 +1,8 @@
 package School_Management.modules;
 
-import School_Management.model.Grade;
 import java.util.*;
+
+import School_Management.model.Grade;
 
 public class AnalyticsEngine {
     // Graph representation: Node -> List of connected nodes with weights

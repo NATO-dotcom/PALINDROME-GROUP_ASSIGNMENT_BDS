@@ -1,6 +1,5 @@
 package School_Management;
 
-// Main.java
 import School_Management.manager.SchoolManager;
 
 public class Main {

@@ -1,8 +1,9 @@
 package School_Management.modules;
 
-import School_Management.model.Transaction;
 import java.util.ArrayList;
 import java.util.List;
+
+import School_Management.model.Transaction;
 
 public class FeeTracker {
     private Transaction root;
