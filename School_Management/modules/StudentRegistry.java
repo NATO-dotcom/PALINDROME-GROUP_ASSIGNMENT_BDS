@@ -10,7 +10,7 @@ public class StudentRegistry {
     private int nextId;
     
     public StudentRegistry() {
-        this.students = new HashMap<>();
+        this.students = new HashMap<>();// Initialize HashMap
         this.nextId = 1001;
     }
     

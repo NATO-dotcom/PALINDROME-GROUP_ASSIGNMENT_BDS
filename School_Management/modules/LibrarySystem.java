@@ -24,10 +24,10 @@ public class LibrarySystem {
         books.put(isbn, new Book(isbn, title, author, copies));
     }
 
-    public boolean borrowBook(String isbn, String studentId) {
+    public boolean borrowBook(String isbn, String studentId) {  // Stack operation
         Book book = books.get(isbn);
         if (book == null) {
-            System.out.println("Book not found!");
+            System.out.println("Book not found!");    // 
             return false;
         }
 
@@ -64,9 +64,9 @@ public class LibrarySystem {
             System.out.println("Total Copies: " + book.getTotalCopies());
             System.out.println("Available Copies: " + book.getAvailableCopies());
 
-            Stack<String> history = book.getBorrowHistory();
+            Stack<String> history = book.getBorrowHistory();      // Stack operation
             if (!history.isEmpty()) {
-                System.out.println("Recent Activity (most recent first):");
+                System.out.println("Recent Activity (most recent first):");   
                 // Display recent activity (last 5)
                 int count = Math.min(5, history.size());
                 for (int i = 0; i < count; i++) {

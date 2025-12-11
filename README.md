@@ -19,24 +19,25 @@ This system modernizes university operations by implementing core management mod
 ## 🏗️ System Architecture
 
 ```
-school-management/
-├
-│   ├── Main.java
-│   ├── model/           # Data Entities
-│   │   ├── Student.java
-│   │   ├── Course.java
-│   │   ├── Transaction.java
-│   │   ├── Book.java
-│   │   └── Grade.java
-│   ├── modules/         # Core Functionality
-│   │   ├── StudentRegistry.java
-│   │   ├── CourseScheduler.java
-│   │   ├── FeeTracker.java
-│   │   ├── LibrarySystem.java
-│   │   └── AnalyticsEngine.java
-│   └── manager/         # System Orchestration
-│       └── SchoolManager.java
-└── README.md
+School_Management/
+├── model/                 # Data Entities
+│   ├── Student.java      # Student profile with courses list
+│   ├── Course.java       # Course info with capacity
+│   ├── Grade.java        # Student performance metrics
+│   ├── Book.java         # Library items with borrow history
+│   └── Transaction.java  # Fee transactions (BST node)
+│
+├── modules/              # Core Functionality (5 modules)
+│   ├── StudentRegistry.java    # Hash Table implementation
+│   ├── CourseScheduler.java    # Queue implementation
+│   ├── FeeTracker.java         # Binary Search Tree
+│   ├── LibrarySystem.java      # Stack + Hash Map
+│   └── AnalyticsEngine.java    # Graph (Adjacency List)
+│
+├── manager/
+│   └── SchoolManager.java      # Orchestrator & facade
+│
+└── Main.java            # Entry point
 ```
 
 ## 🚀 Features

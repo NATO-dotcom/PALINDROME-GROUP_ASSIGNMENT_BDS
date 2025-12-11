@@ -6,10 +6,10 @@ import School_Management.model.Grade;
 
 public class AnalyticsEngine {
     // Graph representation: Node -> List of connected nodes with weights
-    private Map<String, List<Grade>> graph;
+    private Map<String, List<Grade>> graph;//declare graph
 
     public AnalyticsEngine() {
-        this.graph = new HashMap<>();
+        this.graph = new HashMap<>();//initialize graph
     }
 
     public void addGrade(String studentId, String courseId, double score) {

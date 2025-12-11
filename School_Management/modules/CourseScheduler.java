@@ -12,12 +12,12 @@ import java.util.Set;
 
 import School_Management.model.Course;
 
-public class CourseScheduler {
+public class CourseScheduler {  //declare queue
     private Map<String, Course> courses;
     private Map<String, Queue<String>> waitlists; // Course ID -> Queue of Student IDs
     private Map<String, Set<String>> enrolledStudents; // Course ID -> Set of enrolled Student IDs
 
-    public CourseScheduler() {
+    public CourseScheduler() { //initialize maps
         this.courses = new HashMap<>();
         this.waitlists = new HashMap<>();
         this.enrolledStudents = new HashMap<>();

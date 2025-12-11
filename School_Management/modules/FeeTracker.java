@@ -57,7 +57,7 @@ public class FeeTracker {
         return report;
     }
 
-    private void inOrderTraversal(Transaction node, List<Transaction> report) {
+    private void inOrderTraversal(Transaction node, List<Transaction> report) {    // Binary Search Tree traversal
         if (node != null) {
             inOrderTraversal(node.getLeft(), report);
             report.add(node);
