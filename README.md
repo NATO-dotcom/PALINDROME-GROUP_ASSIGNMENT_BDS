@@ -187,6 +187,4 @@ This project is developed for educational purposes as part of academic coursewor
 
 **Course**: Data Structures and Algorithms  
 **Institution**: Meru University  
-**Semester**: Sem1-2024/2025  
-**Instructor**: Dismas Kitaria  
-**Due Date**: 24/10/2025
+
