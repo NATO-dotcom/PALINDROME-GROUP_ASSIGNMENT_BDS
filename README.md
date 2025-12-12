@@ -179,12 +179,5 @@ This project was developed as a group assignment with the following contribution
 - Multi-threading for concurrent operations
 - REST API for system integration
 
-## 📄 License
 
-This project is developed for educational purposes as part of academic coursework.
-
----
-
-**Course**: Data Structures and Algorithms  
-**Institution**: Meru University  
 
